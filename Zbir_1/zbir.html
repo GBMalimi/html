@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Primer 1</title>
+</head>
+<body>
+	<p>
+		Ova e mojata prva veb strana
+	</p>
+	
+<!-- Prv chas, uchime za tagovi vo HTML -->
+<b>Ovoj tekst e so zadebelni bukvi</b><br>
+<i>Ovoj tekst e so zakoseni bukvi</i><br>
+<u>Ovoj tekst e podvlecen</u><br>
+<b><u><i>Ovoj tekst e so zadebelni i zakoseni bukvi i e podvlecen</i></u></b>
+
+<!-- Vo ovoj primer ke razgledame koi tagovi za naslovi postojat vo HTML -->
+	<h1>Naslov 1</h1>
+	<h2>Naslov 2</h2>
+	<h3>Naslov 3</h3>
+	<h4>Naslov 4</h4>
+	<h5>Naslov 5</h5>
+	<h6>Naslov 6</h6>
+	<!-- Bidejki vakov tag ne postoi, prebaruvacot go gleda kako obicen tekst bez tag -->
+	<h7>Naslov 7</h7> <br>
+	
+<!-- probajte type="text" -->
+        <input type="email" placeholder="Enter e-mail"> <br>
+        <input type="password" placeholder="Enter password"> <br>
+        <input type="submit" value="submit">
+
+
+<!-- probajte type="text" -->
+<!-- listi ul,ol,dl, -->
+	<div>
+        <ul>
+            <li>
+                Element 1
+            </li>
+            <li>
+                Element 2
+            </li>
+            <li>
+                Element 3
+            </li>
+        </ul>
+
+    </div>
+	
+<!-- Kako shto pishuvame taka prebaruvacot go gleda nashiot tekst, -->
+	<pre>Kako shto pishuvame     taka prebaruvacot go
+
+
+
+		gleda nashiot
+
+		tekst</pre>
+		
+<!-- tag za postavuvanje slika -->
+<!-- doznajte sto znachi atributot height -->
+	<img src="image.jpg" height="200" alt="HTML CSS JavaScript are best friends">
+	
+<!-- linkovi -->
+	<div>
+	  <div>
+		<div>
+			<ul>
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="https://www.google.com/">Google</a>
+				</li>
+				<li>
+					<a href="https://www.wikipedia.org/">Wikipedia</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+</div>
+	
+	
+<!-- Nesortiracka lista -->
+			<ul>
+				<li>
+					List element 1
+				</li>
+				<li>
+					List element 2
+				</li>
+				<li>
+					List element 3
+				</li>
+			</ul>
+<!-- Nesortircka lista so prazni krugcinja -->
+			<ul style="list-style-type:circle">
+				<li>Coffee</li>
+				<li>Tea</li>
+				<li>Milk</li>
+			</ul>  
+<!-- Nesortircka lista so kvardratcinja -->
+			<ul style="list-style-type:square">
+				<li>Coffee</li>
+				<li>Tea</li>
+				<li>Milk</li>
+			</ul>  
+<!-- Nesortiracka lista bez dizajn -->
+			<ul style="list-style-type:none">
+				<li>Coffee</li>
+				<li>Tea</li>
+				<li>Milk</li>
+			</ul>
+		</div>
+
+<!-- Sortiracka lista -->
+		<div>
+			<ol>
+				<li>Coffee</li>
+				<li>Tea</li>
+				<li>Milk</li>
+			</ol>
+
+<!-- Sortiracka lista so pocetok od 100 -->
+			<ol start="100">
+				<li>Coffee</li>
+				<li>Tea</li>
+				<li>Milk</li>
+			</ol>
+<!-- Sortiracka lista so azbucen redosled-->
+			<ol type="A">
+				<li>Coffee</li>
+				<li>Tea</li>
+				<li>Milk</li>
+			</ol>
+<!-- mozni tipovi se isto taka : a , I , i  -->
+		</div>
+<!-- Opishuvachka lista -->
+		<div>
+			<dl>
+				<dt>Coffee</dt>
+				<dd>- black hot drink</dd>
+				<dt>Milk</dt>
+				<dd>- white cold drink</dd>
+			</dl>
+		</div>
+<!-- Vgnezdena lista -->
+		<div>
+			<ul>
+				<li>Coffee</li>
+				<li>Tea
+					<ul>
+						<li>Black tea</li>
+						<li>Green tea</li>
+					</ul>
+				</li>
+				<li>Milk</li>
+			</ul>
+		</div>
+		
+		<br>
+		
+<!-- tabela -->		
+		<table border="1">
+		<tr>
+			<th>Broj</th>
+			<th>Produkt</th>
+			<th>Kolicina</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Smoki</td>
+			<td>5</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Sok</td>
+			<td>2</td>
+		</tr>
+	</table>
+	
+	<br>
+	
+
+
+<br>
+
+<!-- tabela so kopce, input text, sekcija, i lista na izbor-->
+<table border="1">
+		<tr>
+			<th>Name</th>
+			<th>Value</th>
+		</tr>
+		<tr>
+			<td>Name</td>
+			<td>
+				<input type="text" name="">
+			</td>
+		</tr>
+		<tr>
+			<td>Pol</td>
+			<td>
+				<!-- ako stavite atribut name so vrednost ista na povekjje radio kopcinja kreirate radio group odnosno samo edna opcija e ovozmozhena vo daden moment da bide izbrana -->
+				<input type="radio" name="pol"><label>Zhenski</label>
+				<input type="radio" name="pol"><label>Mashki</label>
+			</td>
+		</tr>
+		<tr>
+			<td>Boja na oci</td>
+			<td>
+				<select>
+					<option>Zeleni</option>
+					<option>Kafeni</option>
+					<option>Sini</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Visina</td>
+			<td>
+				<input type="checkbox" name="visina"><label>120-150</label>
+				<input type="checkbox" name="visina"><label>150-180</label>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				Neshto za mene<br>
+				<textarea></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<button>Isprati</button>
+			</td>
+		</tr>
+	</table>
+	
+	<br>
+	
+	<!-- tabela so povrzuvanje na red i povrzuvanje na kolona -->	
+	<table border="1">
+	<tr>
+		<th>ime</th>
+		<th>Prezime</th>
+		<th>Poeni</th>
+	</tr>
+	<tr>
+		<td rowspan="3">
+			Semos			
+		</td>
+		<td>Semos</td>
+		<td>50</td>
+	</tr>
+	<tr>
+		<td>Sanja</td>
+		<td>34</td>
+	</tr>
+	<tr>
+		<td colspan="2">Petko</td>
+	</tr>
+	
+	<br>
+</body>
+</html>
+
+</body>
+</html>

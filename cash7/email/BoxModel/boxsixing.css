@@ -1,0 +1,4 @@
+*{box-sizing: border-box} 
+/* go ogranicuva padding forma od gorno a dole si ostanuva padding */
+.div1 {width: 300px; height: 100; border: 1px solid blue}
+.div2 {width: 300px; height: 100; border: 1px solid red; padding: 50px }
