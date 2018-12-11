@@ -1,0 +1,125 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+.prv {
+    font-size: 40px;
+    margin: 12px 17px 15px 0px;
+    width: 100%;
+    height: 50px;
+    background: #004080;
+    color: #fff;
+}
+.vtor {
+    background-color: #638383; 
+    width: auto; 
+    height: 40px;
+    color: #ffffff; 
+    font-size: 30px; 
+    text-align: center;
+    margin: 0 auto;
+        }
+.vtor ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.vtor ul li {
+    float: left;
+    border-right: 1px solid #33dd88 #3d87ff;
+    position: relative;
+    
+}
+.vtor ul li a {
+    float: left;
+    display: inline-block; 
+    background: #638383;
+    color: #ffffff;
+    text-decoration:  none;
+    padding: 10px 20px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.vtor ul li a:hover {
+    background: #1674b3;
+}
+.tret {
+    width: 101%;
+    
+}
+.tretlev {
+    margin: 30px 1% 30px 0px ;
+    width: 60%;
+    height: 160px;
+    background: #487a8d;
+    float: left; text-align: start;
+    color: #ffffff;
+    font-size: 20px;
+    display: inline;
+} 
+.tretdesen {
+    margin: 30px 1% 30px 0px;
+    width: 38%;
+    height: 160px;
+    background: #487a8d;
+    float: left; 
+    text-align: right;
+    color: #ffffff;
+    font-size: 20px;
+    /* display: inline; */
+} 
+.cetvrta-kolona {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: inline;
+}
+.cetvrta-kolona img {
+    width: 100%;
+    height: 100%;
+    display: inline;
+}
+.cetvrt {
+    width: 102%;
+}
+.lev4 {
+    margin: 12px 17px 15px 0px;
+    width: 29%;
+    height: 200px;
+    background: #487a8d;
+    float: left; 
+    display: inline;
+}
+.sreden4 {
+    margin: 12px 16px 15px 0px;
+    width: 29%;
+    height: 200px;
+    background: #487a8d;
+    float: left;
+    display: inline;
+}
+.desen4 {
+    margin: 12px 0px 15px 0px;
+    width: 37.5%;
+    height: 200px;
+    background: #487a8d;
+    float: left;
+    display: inline;
+}
+.kraj {
+    margin: auto;
+    background-color: #638383; 
+    width: 100%; height: 50px;
+    color: #ffffff; 
+    font-size: 15px; 
+    text-align: center;
+    padding-top: 2%;
+    clear: both;
+}
